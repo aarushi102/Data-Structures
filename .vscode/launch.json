@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Day4",
+            "request": "launch",
+            "mainClass": "Day4",
+            "projectName": "Data-Structures_7491a8a1"
+        },
+        {
             "name": "(gdb) Bash on Windows Attach",
             "type": "cppdbg",
             "request": "attach",
@@ -13,7 +20,9 @@
             "pipeTransport": {
                 "debuggerPath": "/usr/bin/gdb",
                 "pipeProgram": "${env:windir}\\system32\\bash.exe",
-                "pipeArgs": ["-c"],
+                "pipeArgs": [
+                    "-c"
+                ],
                 "pipeCwd": ""
             },
             "setupCommands": [
